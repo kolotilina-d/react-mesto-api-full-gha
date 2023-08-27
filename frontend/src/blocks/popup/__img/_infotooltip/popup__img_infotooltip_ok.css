@@ -1,0 +1,6 @@
+.popup__img_infotooltip_ok {
+  background-image: url(../../../../images/ok.svg);
+  height: 120px;
+  width: 120px;
+  margin: 60px 0 32px;
+}

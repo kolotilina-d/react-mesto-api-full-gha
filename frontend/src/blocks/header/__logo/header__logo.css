@@ -1,0 +1,14 @@
+.header__logo {
+  display: block;
+  padding: 45px 0 41px;
+  background: url(../../../images/logo.svg) no-repeat center left;
+  min-height: 33px;
+}
+
+@media screen and (max-width: 950px) {
+  .header__logo {
+    padding: 28px 0 30px;
+    background: url(../../../images/logo_mini.svg) no-repeat center left;
+    min-height: 24.4px;
+  }
+}

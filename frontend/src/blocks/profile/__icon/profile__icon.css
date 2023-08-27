@@ -1,0 +1,13 @@
+.profile__logout__icon {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .profile__logout__icon {
+    display: block;
+    background-image: url("../../../images/burger.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 16px;
+  }
+}

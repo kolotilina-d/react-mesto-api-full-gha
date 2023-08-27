@@ -1,0 +1,18 @@
+.infotooltip__content_error {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 212px;
+}
+
+.infotooltip__content_error::before {
+  position: absolute;
+  content: '';
+  width: 120px;
+  height: 120px;
+  background-image: url(../../../images/error.svg);
+  background-size: 120px 120px;
+  top: 60px;
+  left: 155px;
+}

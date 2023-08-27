@@ -1,0 +1,14 @@
+.spinner {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #050505;
+  opacity: 0.4;
+  z-index: 1001;
+  background-image: url("../../images/d1.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}

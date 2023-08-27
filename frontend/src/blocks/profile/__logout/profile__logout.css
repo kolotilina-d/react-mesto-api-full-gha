@@ -1,0 +1,11 @@
+.profile__logout {
+  position: absolute;
+  top: -64px;
+  right: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .profile__logout {
+    padding: 0 30px;
+  }
+}

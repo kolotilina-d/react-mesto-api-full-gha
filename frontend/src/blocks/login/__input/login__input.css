@@ -1,0 +1,18 @@
+.login__input {
+  max-width: 358px;
+  display: block;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  background-color: black;
+  margin: 0 0 30px;
+  padding-bottom: 13px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.login__input:-webkit-autofill,
+.login__input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}

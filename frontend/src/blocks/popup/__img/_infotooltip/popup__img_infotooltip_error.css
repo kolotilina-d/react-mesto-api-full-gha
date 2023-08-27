@@ -1,0 +1,6 @@
+.popup__img_infotooltip_error {
+  background-image: url(../../../../images/error.svg);
+  height: 120px;
+  width: 120px;
+  margin: 60px 0 32px;
+}

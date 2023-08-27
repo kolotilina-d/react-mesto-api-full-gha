@@ -1,0 +1,13 @@
+.login__to-registration {
+  position: absolute;
+  top: -60px;
+  right: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 950px) {
+  .login__to-registration {
+    padding: 0 30px;
+  }
+}

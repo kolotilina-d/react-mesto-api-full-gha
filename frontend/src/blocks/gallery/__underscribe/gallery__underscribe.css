@@ -1,0 +1,7 @@
+.gallery__underscribe {
+  padding-top: 5px;
+  margin: 0 auto;
+  max-width: 246px;
+  display: flex;
+  justify-content: space-between;
+}

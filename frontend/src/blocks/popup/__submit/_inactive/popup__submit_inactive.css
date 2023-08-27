@@ -1,0 +1,21 @@
+.popup__submit_inactive {
+  background-color: white;
+  color: #000000;
+  border-radius: 1px solid black;
+  opacity: .2;
+  pointer-events: none;
+  cursor: not-allowed;
+  width: 358px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 23px 0 37px;
+}
+
+@media screen and (max-width: 700px) {
+  .popup__submit {
+    width: 238px;
+    margin: 20px 0 20px;
+    font-size: 14px;
+  }
+}

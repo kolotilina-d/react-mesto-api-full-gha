@@ -1,0 +1,8 @@
+@media screen and (max-width: 700px) {
+  .popup-photo__close {
+    background: url(../../../../images/Close-Icon.svg) no-repeat;
+    background-color: black;
+    top: -36px;
+    right: -10px;
+  }
+}
