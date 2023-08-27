@@ -7,7 +7,7 @@ const { errors } = require('celebrate');
 const { requestLogger, errorLogger } = require('./middlewares/loger');
 const router = require('./routes/index');
 
-const { PORT = 3000, DB_URL = 'mongodb://localhost:27017/mestodb' } = process.env;
+const { PORT = 3000, DB_URL = 'mongodb://127.0.0.1:27017/mestodb' } = process.env;
 
 mongoose.connect(DB_URL, {
   useNewUrlParser: true,
