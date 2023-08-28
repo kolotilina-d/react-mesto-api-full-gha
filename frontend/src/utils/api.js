@@ -54,7 +54,7 @@ class Api {
   }
 
   setUserInfo(data, jwt) {
-    return fetch(`http://localhost:3000/users/me`, {
+    return fetch(`${this._baseUrl}/users/me`, {
       method: "PATCH",
       headers: {
         "Authorization" : `Bearer ${jwt}`,
