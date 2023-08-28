@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.69.27
+IP 158.160.69.27
 
-Frontend https://...
+Frontend https://mesto.kolotilina.nomoredomainsicu.ru/
 
-Backend https://...
+Backend https://api.mesto.kolotilina.nomoredomainsicu.ru/

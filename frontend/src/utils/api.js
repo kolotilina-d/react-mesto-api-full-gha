@@ -1,10 +1,6 @@
 class Api {
   constructor({ baseUrl, headers }) {
     this._baseUrl = baseUrl;
-    // this._headers = headers;
-    // this._authorization = headers.authorization;
-    // "Content-Type" = "application/json";
-    // "Authorization" = `Bearer ${token}`
   }
 
   _checkResponse(res) {
@@ -15,7 +11,6 @@ class Api {
     return fetch(`${this._baseUrl}/cards`, {
       method: "GET",
       headers: {
-        // authorization: this._authorization,
         "Authorization" : `Bearer ${jwt}`
       },
     }).then(this._checkResponse);
@@ -49,7 +44,6 @@ class Api {
     return fetch(`${this._baseUrl}/users/me`, {
       method: "GET",
       headers: {
-        // authorization: this._authorization,
         "Authorization" : `Bearer ${jwt}`
       },
     }).then(this._checkResponse);
@@ -105,12 +99,7 @@ class Api {
 }
 
 const api = new Api({
-  // baseUrl: "https://mesto.nomoreparties.co/v1/cohort-66",
-  baseUrl: "http://localhost:3000",
-  // headers: {
-  //   "Authorization": `Bearer ${token}`,
-  //   "Content-Type": "application/json",
-  // },
+  baseUrl: "http://api.mesto.kolotilina.nomoredomainsicu.ru",
 });
 
 export default api;
