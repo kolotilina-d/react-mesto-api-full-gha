@@ -99,7 +99,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: "http://api.mesto.kolotilina.nomoredomainsicu.ru",
+  baseUrl: "https://api.mesto.kolotilina.nomoredomainsicu.ru",
 });
 
 export default api;
