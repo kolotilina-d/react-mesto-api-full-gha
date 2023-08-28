@@ -11,6 +11,6 @@
 
 IP-адрес 158.160.69.27
 
-Frontend https://...
+Frontend http://mesto.kolotilina.nomoredomainsicu.ru/
 
-Backend https://...
+Backend http://api.mesto.kolotilina.nomoredomainsicu.ru/
