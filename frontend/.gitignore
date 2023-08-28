@@ -29,7 +29,7 @@ npm-debug.log*
 
 #  Dependency directory
 node_modules
-build/
+build
 # Optional npm cache directory
 .npm
 
