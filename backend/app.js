@@ -16,7 +16,6 @@ mongoose.connect(DB_URL, {
 
 const app = express();
 app.use(cors());
-
 app.use(helmet());
 
 app.use(express.json());
