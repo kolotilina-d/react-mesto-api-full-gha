@@ -27,7 +27,7 @@ class Api {
         name: data.place,
         link: data.link,
       }),
-    }).then(this._checkResponse);
+    }).then(this._checkResponse)
   };
 
   deleteCardItem(id, jwt) {
@@ -100,6 +100,7 @@ class Api {
 
 const api = new Api({
   baseUrl: "https://api.mesto.kolotilina.nomoredomainsicu.ru",
+  // baseUrl: "http://localhost:3000",
 });
 
 export default api;

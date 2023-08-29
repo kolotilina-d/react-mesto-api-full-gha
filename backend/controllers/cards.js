@@ -7,7 +7,6 @@ const ForbiddenError = require('../utils/Forbidden');
 
 module.exports.getCards = (req, res, next) => {
   Card.find({})
-    .populate(['owner', 'likes'])
     .then((cards) => res.status(httpConstans.HTTP_STATUS_OK).send(cards))
     .catch((err) => next(err));
 };
@@ -61,7 +60,6 @@ module.exports.deleteCard = (req, res, next) => {
 
 module.exports.likeCard = (req, res, next) => {
   Card.findByIdAndUpdate(req.params.cardId, { $addToSet: { likes: req.user._id } }, { new: true })
-    .populate(['owner', 'likes'])
     .orFail(new Error('NotValidId'))
     .then((card) => {
       res.status(httpConstans.HTTP_STATUS_OK).send(card);
@@ -79,7 +77,6 @@ module.exports.likeCard = (req, res, next) => {
 
 module.exports.dislikeCard = (req, res, next) => {
   Card.findByIdAndUpdate(req.params.cardId, { $pull: { likes: req.user._id } }, { new: true })
-    .populate(['owner', 'likes'])
     .orFail(new Error('NotValidId'))
     .then((card) => {
       res.status(httpConstans.HTTP_STATUS_OK).send(card);
